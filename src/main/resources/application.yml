@@ -1,0 +1,16 @@
+
+---
+spring:
+  profiles: default
+
+management:
+  security:
+    enabled: false
+
+---
+spring:
+  profiles: cloud
+
+management:
+  security:
+    enabled: true

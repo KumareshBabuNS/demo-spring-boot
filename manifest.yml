@@ -1,0 +1,6 @@
+---
+applications:
+  name: demo-spring-boot
+  path: target/demo-spring-boot-0.0.1-SNAPSHOT.jar
+  services:
+  - appleStoreDb
